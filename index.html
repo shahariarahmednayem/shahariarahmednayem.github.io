@@ -45,11 +45,15 @@ h2{font-size:2.1rem;font-weight:800;margin-bottom:8px}
 .card .tags{display:flex;flex-wrap:wrap;gap:8px}
 .card .tags span{background:rgba(255,255,255,.25);padding:4px 14px;border-radius:20px;font-weight:600;font-size:.95rem}
 .c1{background:var(--violet)}.c2{background:var(--pink)}.c3{background:var(--teal);color:var(--ink)}.c3 .tags span{background:rgba(29,17,70,.12)}
+.c4{background:var(--orange);color:var(--ink)}.c4 .tags span{background:rgba(29,17,70,.12)}
 .proj{background:#fff}
 .proj .card{background:var(--paper);color:var(--ink);border:3px solid var(--ink);box-shadow:8px 8px 0 var(--sky);display:flex;flex-direction:column}
 .proj .card:nth-child(2){box-shadow:8px 8px 0 var(--pink)}
 .proj .card p{flex:1;margin-bottom:14px}
 .proj .card a{font-weight:600;color:var(--violet)}
+.proj .card .btns{display:flex;flex-wrap:wrap;gap:10px}
+.proj .card .btns a{background:var(--violet);color:#fff;padding:8px 18px;border-radius:30px;text-decoration:none}
+.proj .card .btns a:hover{background:var(--pink)}
 .contact{background:linear-gradient(135deg,var(--teal),var(--sky));color:var(--ink)}
 .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
 .links a{background:var(--ink);color:#fff;padding:12px 24px;border-radius:40px;font-weight:600;text-decoration:none}
@@ -115,6 +119,7 @@ a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
       <div class="card c1"><h3>Programming</h3><div class="tags"><span>C</span></div></div>
       <div class="card c2"><h3>Web</h3><div class="tags"><span>HTML</span><span>CSS</span></div></div>
       <div class="card c3"><h3>Tools</h3><div class="tags"><span>Git</span><span>GitHub</span><span>GitHub Pages</span></div></div>
+      <div class="card c4"><h3>Creative</h3><div class="tags"><span>Motion Graphics</span></div></div>
     </div>
   </div>
 </section>
@@ -124,6 +129,14 @@ a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
     <h2>Projects</h2>
     <p class="sub">Things I've built so far</p>
     <div class="grid">
+      <div class="card">
+        <h3>Motion graphics animation reel</h3>
+        <p>A short motion graphics animation video I created and published as a reel on Facebook and TikTok.</p>
+        <div class="btns">
+          <a href="https://www.facebook.com/share/v/1A6qxNAWQX/" target="_blank" rel="noopener">Watch on Facebook</a>
+          <a href="https://www.tiktok.com/@sa_nayem751/video/7708299725350604052" target="_blank" rel="noopener">Watch on TikTok</a>
+        </div>
+      </div>
       <div class="card">
         <h3>Personal portfolio website</h3>
         <p>This responsive website, built with HTML and CSS and hosted for free on GitHub Pages.</p>
